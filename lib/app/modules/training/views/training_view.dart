@@ -35,14 +35,14 @@ class TrainingView extends GetView<TrainingController> {
                       Container(
                         padding: EdgeInsets.all(12.sp),
                         decoration: BoxDecoration(
-                          color: module['completed']
+                          color: (module['completed'] as bool? ?? false)
                               ? AppColors.success.withOpacity(0.1)
                               : AppColors.primary.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Icon(
-                          _getIcon(module['icon']),
-                          color: module['completed']
+                          _getIcon(module['icon'] as String? ?? ''),
+                          color: (module['completed'] as bool? ?? false)
                               ? AppColors.success
                               : AppColors.primary,
                           size: 28.sp,
@@ -62,7 +62,7 @@ class TrainingView extends GetView<TrainingController> {
                             ),
                             SizedBox(height: 4.h),
                             Text(
-                              module['description'],
+                              module['description'] as String? ?? '',
                               style: TextStyle(
                                 fontSize: 12.sp,
                                 color: AppColors.lightTextSecondary,
@@ -78,13 +78,13 @@ class TrainingView extends GetView<TrainingController> {
                                 ),
                                 SizedBox(width: 4.w),
                                 Text(
-                                  module['duration'],
+                                  module['duration'] as String? ?? '',
                                   style: TextStyle(
                                     fontSize: 12.sp,
                                     color: AppColors.lightTextSecondary,
                                   ),
                                 ),
-                                if (module['completed']) ...[
+                                if (module['completed'] as bool? ?? false) ...[
                                   SizedBox(width: 12.w),
                                   Icon(
                                     Icons.check_circle_rounded,

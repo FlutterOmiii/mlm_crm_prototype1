@@ -42,7 +42,7 @@ class CustomCard extends StatelessWidget {
     if (onTap != null) {
       return InkWell(
         onTap: onTap,
-        borderRadius: borderRadius ??
+        borderRadius: borderRadius as BorderRadius? ??
             BorderRadius.circular(AppConstants.cardBorderRadius),
         child: card,
       );
