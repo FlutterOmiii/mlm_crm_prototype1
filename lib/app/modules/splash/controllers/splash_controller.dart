@@ -8,42 +8,36 @@ class SplashController extends GetxController {
   final String _isLoggedInKey = 'isLoggedIn';
 
   @override
-  void onReady() {
-    super.onReady();
+  void onInit() {
+    super.onInit();
+    print('✅ SplashController initialized');
     _navigateToNextScreen();
   }
 
   Future<void> _navigateToNextScreen() async {
-    // Short delay for smooth animation (1.5 seconds)
+    print('⏳ Starting navigation delay...');
     await Future.delayed(const Duration(milliseconds: 1500));
 
     final hasSelectedLanguage = _storage.read(_languageKey) != null;
     final isLoggedIn = _storage.read(_isLoggedInKey) ?? false;
 
-    // Debug logging
-    print('🔍 Navigation Debug:');
-    print('   hasSelectedLanguage: $hasSelectedLanguage');
-    print('   isLoggedIn: $isLoggedIn');
+    print('🔍 Navigation Check:');
+    print('   Language selected: $hasSelectedLanguage');
+    print('   Logged in: $isLoggedIn');
 
-    // Navigate based on app state with smooth transitions
-    if (!hasSelectedLanguage) {
-      print('   → Navigating to Language Selection');
-      Get.offAllNamed(
-        AppRoutes.languageSelection,
-        predicate: (route) => false,
-      );
-    } else if (!isLoggedIn) {
-      print('   → Navigating to Login');
-      Get.offAllNamed(
-        AppRoutes.login,
-        predicate: (route) => false,
-      );
-    } else {
-      print('   → Navigating to Home');
-      Get.offAllNamed(
-        AppRoutes.home,
-        predicate: (route) => false,
-      );
+    try {
+      if (!hasSelectedLanguage) {
+        print('🚀 Going to Language Selection');
+        await Get.offAllNamed(AppRoutes.languageSelection);
+      } else if (!isLoggedIn) {
+        print('🚀 Going to Login');
+        await Get.offAllNamed(AppRoutes.login);
+      } else {
+        print('🚀 Going to Home');
+        await Get.offAllNamed(AppRoutes.home);
+      }
+    } catch (e) {
+      print('❌ Navigation Error: $e');
     }
   }
 }
