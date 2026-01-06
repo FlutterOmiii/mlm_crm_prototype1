@@ -1,0 +1,151 @@
+const Map<String, String> enUS = {
+  // App General
+  'app_name': 'SellerStack',
+  'app_tagline': 'Your MLM Operating System',
+
+  // Common
+  'ok': 'OK',
+  'cancel': 'Cancel',
+  'save': 'Save',
+  'delete': 'Delete',
+  'edit': 'Edit',
+  'add': 'Add',
+  'search': 'Search',
+  'loading': 'Loading...',
+  'no_data': 'No data available',
+  'error': 'Error',
+  'success': 'Success',
+  'yes': 'Yes',
+  'no': 'No',
+  'continue': 'Continue',
+  'skip': 'Skip',
+  'done': 'Done',
+  'close': 'Close',
+  'select': 'Select',
+
+  // Language Selection
+  'select_language': 'Select Your Language',
+  'language_english': 'English',
+  'language_hindi': 'हिन्दी (Hindi)',
+  'language_marathi': 'मराठी (Marathi)',
+  'language_hinglish': 'Hinglish',
+
+  // Authentication
+  'login': 'Login',
+  'logout': 'Logout',
+  'enter_phone': 'Enter your phone number',
+  'phone_number': 'Phone Number',
+  'send_otp': 'Send OTP',
+  'verify_otp': 'Verify OTP',
+  'enter_otp': 'Enter OTP',
+  'otp_sent': 'OTP sent successfully',
+  'otp_verified': 'OTP verified successfully',
+  'resend_otp': 'Resend OTP',
+  'invalid_phone': 'Invalid phone number',
+  'invalid_otp': 'Invalid OTP',
+
+  // Home / Dashboard
+  'home': 'Home',
+  'dashboard': 'Dashboard',
+  'welcome_back': 'Welcome Back',
+  'total_earnings': 'Total Earnings',
+  'this_month': 'This Month',
+  'today_earnings': "Today's Earnings",
+  'active_leads': 'Active Leads',
+  'pending_followups': 'Pending Follow-ups',
+  'quick_actions': 'Quick Actions',
+  'add_lead': 'Add Lead',
+  'add_followup': 'Add Follow-up',
+  'view_all': 'View All',
+  'recent_activity': 'Recent Activity',
+
+  // Leads Management
+  'leads': 'Leads',
+  'my_leads': 'My Leads',
+  'lead_details': 'Lead Details',
+  'new_lead': 'New Lead',
+  'edit_lead': 'Edit Lead',
+  'lead_name': 'Lead Name',
+  'lead_phone': 'Phone Number',
+  'lead_email': 'Email',
+  'lead_source': 'Source',
+  'lead_status': 'Status',
+  'lead_notes': 'Notes',
+  'lead_added': 'Lead added successfully',
+  'lead_updated': 'Lead updated successfully',
+  'lead_deleted': 'Lead deleted successfully',
+  'confirm_delete_lead': 'Are you sure you want to delete this lead?',
+
+  // Lead Status
+  'status_new': 'New',
+  'status_contacted': 'Contacted',
+  'status_interested': 'Interested',
+  'status_not_interested': 'Not Interested',
+  'status_converted': 'Converted',
+
+  // Follow-ups
+  'followups': 'Follow-ups',
+  'my_followups': 'My Follow-ups',
+  'new_followup': 'New Follow-up',
+  'followup_date': 'Follow-up Date',
+  'followup_time': 'Follow-up Time',
+  'followup_notes': 'Notes',
+  'contact_via_whatsapp': 'Contact via WhatsApp',
+  'call_now': 'Call Now',
+  'mark_complete': 'Mark Complete',
+  'followup_added': 'Follow-up added successfully',
+  'followup_completed': 'Follow-up marked as completed',
+
+  // Training
+  'training': 'Training',
+  'my_training': 'My Training',
+  'training_modules': 'Training Modules',
+  'getting_started': 'Getting Started',
+  'product_knowledge': 'Product Knowledge',
+  'sales_techniques': 'Sales Techniques',
+  'team_building': 'Team Building',
+  'success_stories': 'Success Stories',
+
+  // Profile & Settings
+  'profile': 'Profile',
+  'my_profile': 'My Profile',
+  'settings': 'Settings',
+  'edit_profile': 'Edit Profile',
+  'full_name': 'Full Name',
+  'email': 'Email',
+  'phone': 'Phone',
+  'address': 'Address',
+  'profile_updated': 'Profile updated successfully',
+
+  // Settings
+  'general_settings': 'General Settings',
+  'appearance': 'Appearance',
+  'theme': 'Theme',
+  'language': 'Language',
+  'notifications': 'Notifications',
+  'dark_mode': 'Dark Mode',
+  'light_mode': 'Light Mode',
+  'system_default': 'System Default',
+  'notification_settings': 'Notification Settings',
+  'push_notifications': 'Push Notifications',
+  'email_notifications': 'Email Notifications',
+
+  // Earnings
+  'earnings': 'Earnings',
+  'my_earnings': 'My Earnings',
+  'total': 'Total',
+  'weekly': 'Weekly',
+  'monthly': 'Monthly',
+  'yearly': 'Yearly',
+
+  // Validation Messages
+  'field_required': 'This field is required',
+  'invalid_email': 'Invalid email address',
+  'phone_too_short': 'Phone number is too short',
+  'phone_too_long': 'Phone number is too long',
+
+  // Network Messages
+  'network_error': 'Network error. Please check your connection.',
+  'server_error': 'Server error. Please try again later.',
+  'something_went_wrong': 'Something went wrong. Please try again.',
+};

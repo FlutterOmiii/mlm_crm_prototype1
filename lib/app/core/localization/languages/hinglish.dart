@@ -1,0 +1,151 @@
+const Map<String, String> hinglish = {
+  // App General
+  'app_name': 'SellerStack',
+  'app_tagline': 'Aapka MLM Operating System',
+
+  // Common
+  'ok': 'OK',
+  'cancel': 'Cancel karo',
+  'save': 'Save karo',
+  'delete': 'Delete karo',
+  'edit': 'Edit karo',
+  'add': 'Add karo',
+  'search': 'Search karo',
+  'loading': 'Load ho raha hai...',
+  'no_data': 'Koi data available nahi hai',
+  'error': 'Error',
+  'success': 'Success',
+  'yes': 'Haan',
+  'no': 'Nahi',
+  'continue': 'Continue karo',
+  'skip': 'Skip karo',
+  'done': 'Ho gaya',
+  'close': 'Close karo',
+  'select': 'Select karo',
+
+  // Language Selection
+  'select_language': 'Apni Language Select Karo',
+  'language_english': 'English',
+  'language_hindi': 'हिन्दी (Hindi)',
+  'language_marathi': 'मराठी (Marathi)',
+  'language_hinglish': 'Hinglish',
+
+  // Authentication
+  'login': 'Login',
+  'logout': 'Logout',
+  'enter_phone': 'Apna phone number enter karo',
+  'phone_number': 'Phone Number',
+  'send_otp': 'OTP bhejo',
+  'verify_otp': 'OTP verify karo',
+  'enter_otp': 'OTP enter karo',
+  'otp_sent': 'OTP successfully bheja gaya',
+  'otp_verified': 'OTP successfully verify ho gaya',
+  'resend_otp': 'OTP dobara bhejo',
+  'invalid_phone': 'Invalid phone number',
+  'invalid_otp': 'Invalid OTP',
+
+  // Home / Dashboard
+  'home': 'Home',
+  'dashboard': 'Dashboard',
+  'welcome_back': 'Welcome Back',
+  'total_earnings': 'Total Earnings',
+  'this_month': 'Is Mahine',
+  'today_earnings': 'Aaj Ki Earning',
+  'active_leads': 'Active Leads',
+  'pending_followups': 'Pending Follow-ups',
+  'quick_actions': 'Quick Actions',
+  'add_lead': 'Lead Add karo',
+  'add_followup': 'Follow-up Add karo',
+  'view_all': 'Sab dekho',
+  'recent_activity': 'Recent Activity',
+
+  // Leads Management
+  'leads': 'Leads',
+  'my_leads': 'Mere Leads',
+  'lead_details': 'Lead Details',
+  'new_lead': 'Naya Lead',
+  'edit_lead': 'Lead Edit karo',
+  'lead_name': 'Lead ka Naam',
+  'lead_phone': 'Phone Number',
+  'lead_email': 'Email',
+  'lead_source': 'Source',
+  'lead_status': 'Status',
+  'lead_notes': 'Notes',
+  'lead_added': 'Lead successfully add ho gaya',
+  'lead_updated': 'Lead successfully update ho gaya',
+  'lead_deleted': 'Lead successfully delete ho gaya',
+  'confirm_delete_lead': 'Kya aap sure ho ki aap is lead ko delete karna chahte ho?',
+
+  // Lead Status
+  'status_new': 'New',
+  'status_contacted': 'Contact kiya',
+  'status_interested': 'Interested hai',
+  'status_not_interested': 'Interested nahi hai',
+  'status_converted': 'Convert ho gaya',
+
+  // Follow-ups
+  'followups': 'Follow-ups',
+  'my_followups': 'Mere Follow-ups',
+  'new_followup': 'Naya Follow-up',
+  'followup_date': 'Follow-up Date',
+  'followup_time': 'Follow-up Time',
+  'followup_notes': 'Notes',
+  'contact_via_whatsapp': 'WhatsApp se contact karo',
+  'call_now': 'Abhi call karo',
+  'mark_complete': 'Complete mark karo',
+  'followup_added': 'Follow-up successfully add ho gaya',
+  'followup_completed': 'Follow-up complete mark ho gaya',
+
+  // Training
+  'training': 'Training',
+  'my_training': 'Meri Training',
+  'training_modules': 'Training Modules',
+  'getting_started': 'Shuru karo',
+  'product_knowledge': 'Product Knowledge',
+  'sales_techniques': 'Sales Techniques',
+  'team_building': 'Team Building',
+  'success_stories': 'Success Stories',
+
+  // Profile & Settings
+  'profile': 'Profile',
+  'my_profile': 'Meri Profile',
+  'settings': 'Settings',
+  'edit_profile': 'Profile Edit karo',
+  'full_name': 'Poora Naam',
+  'email': 'Email',
+  'phone': 'Phone',
+  'address': 'Address',
+  'profile_updated': 'Profile successfully update ho gaya',
+
+  // Settings
+  'general_settings': 'General Settings',
+  'appearance': 'Appearance',
+  'theme': 'Theme',
+  'language': 'Language',
+  'notifications': 'Notifications',
+  'dark_mode': 'Dark Mode',
+  'light_mode': 'Light Mode',
+  'system_default': 'System Default',
+  'notification_settings': 'Notification Settings',
+  'push_notifications': 'Push Notifications',
+  'email_notifications': 'Email Notifications',
+
+  // Earnings
+  'earnings': 'Earnings',
+  'my_earnings': 'Meri Earnings',
+  'total': 'Total',
+  'weekly': 'Weekly',
+  'monthly': 'Monthly',
+  'yearly': 'Yearly',
+
+  // Validation Messages
+  'field_required': 'Ye field required hai',
+  'invalid_email': 'Invalid email address',
+  'phone_too_short': 'Phone number bahut chhota hai',
+  'phone_too_long': 'Phone number bahut lamba hai',
+
+  // Network Messages
+  'network_error': 'Network error. Apna connection check karo.',
+  'server_error': 'Server error. Baad me try karo.',
+  'something_went_wrong': 'Kuch galat ho gaya. Dobara try karo.',
+};

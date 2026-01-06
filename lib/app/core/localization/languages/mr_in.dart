@@ -1,0 +1,151 @@
+const Map<String, String> mrIN = {
+  // App General
+  'app_name': 'सेलरस्टॅक',
+  'app_tagline': 'तुमची MLM ऑपरेटिंग सिस्टीम',
+
+  // Common
+  'ok': 'ठीक आहे',
+  'cancel': 'रद्द करा',
+  'save': 'जतन करा',
+  'delete': 'हटवा',
+  'edit': 'संपादित करा',
+  'add': 'जोडा',
+  'search': 'शोधा',
+  'loading': 'लोड होत आहे...',
+  'no_data': 'डेटा उपलब्ध नाही',
+  'error': 'त्रुटी',
+  'success': 'यश',
+  'yes': 'होय',
+  'no': 'नाही',
+  'continue': 'सुरू ठेवा',
+  'skip': 'वगळा',
+  'done': 'झाले',
+  'close': 'बंद करा',
+  'select': 'निवडा',
+
+  // Language Selection
+  'select_language': 'तुमची भाषा निवडा',
+  'language_english': 'English',
+  'language_hindi': 'हिन्दी (Hindi)',
+  'language_marathi': 'मराठी (Marathi)',
+  'language_hinglish': 'Hinglish',
+
+  // Authentication
+  'login': 'लॉगिन',
+  'logout': 'लॉगआउट',
+  'enter_phone': 'तुमचा फोन नंबर प्रविष्ट करा',
+  'phone_number': 'फोन नंबर',
+  'send_otp': 'OTP पाठवा',
+  'verify_otp': 'OTP सत्यापित करा',
+  'enter_otp': 'OTP प्रविष्ट करा',
+  'otp_sent': 'OTP यशस्वीरित्या पाठवला',
+  'otp_verified': 'OTP यशस्वीरित्या सत्यापित',
+  'resend_otp': 'OTP पुन्हा पाठवा',
+  'invalid_phone': 'अवैध फोन नंबर',
+  'invalid_otp': 'अवैध OTP',
+
+  // Home / Dashboard
+  'home': 'होम',
+  'dashboard': 'डॅशबोर्ड',
+  'welcome_back': 'परत स्वागत आहे',
+  'total_earnings': 'एकूण कमाई',
+  'this_month': 'या महिन्यात',
+  'today_earnings': 'आजची कमाई',
+  'active_leads': 'सक्रिय लीड्स',
+  'pending_followups': 'प्रलंबित फॉलोअप',
+  'quick_actions': 'जलद क्रिया',
+  'add_lead': 'लीड जोडा',
+  'add_followup': 'फॉलोअप जोडा',
+  'view_all': 'सर्व पहा',
+  'recent_activity': 'अलीकडील क्रियाकलाप',
+
+  // Leads Management
+  'leads': 'लीड्स',
+  'my_leads': 'माझे लीड्स',
+  'lead_details': 'लीड तपशील',
+  'new_lead': 'नवीन लीड',
+  'edit_lead': 'लीड संपादित करा',
+  'lead_name': 'लीडचे नाव',
+  'lead_phone': 'फोन नंबर',
+  'lead_email': 'ईमेल',
+  'lead_source': 'स्रोत',
+  'lead_status': 'स्थिती',
+  'lead_notes': 'नोट्स',
+  'lead_added': 'लीड यशस्वीरित्या जोडली',
+  'lead_updated': 'लीड यशस्वीरित्या अपडेट केली',
+  'lead_deleted': 'लीड यशस्वीरित्या हटवली',
+  'confirm_delete_lead': 'तुम्हाला खात्री आहे की तुम्ही ही लीड हटवू इच्छिता?',
+
+  // Lead Status
+  'status_new': 'नवीन',
+  'status_contacted': 'संपर्क केला',
+  'status_interested': 'स्वारस्य आहे',
+  'status_not_interested': 'स्वारस्य नाही',
+  'status_converted': 'रूपांतरित',
+
+  // Follow-ups
+  'followups': 'फॉलोअप',
+  'my_followups': 'माझे फॉलोअप',
+  'new_followup': 'नवीन फॉलोअप',
+  'followup_date': 'फॉलोअप तारीख',
+  'followup_time': 'फॉलोअप वेळ',
+  'followup_notes': 'नोट्स',
+  'contact_via_whatsapp': 'WhatsApp वरून संपर्क करा',
+  'call_now': 'आता कॉल करा',
+  'mark_complete': 'पूर्ण म्हणून चिन्हांकित करा',
+  'followup_added': 'फॉलोअप यशस्वीरित्या जोडले',
+  'followup_completed': 'फॉलोअप पूर्ण म्हणून चिन्हांकित',
+
+  // Training
+  'training': 'प्रशिक्षण',
+  'my_training': 'माझे प्रशिक्षण',
+  'training_modules': 'प्रशिक्षण मॉड्यूल',
+  'getting_started': 'सुरुवात करा',
+  'product_knowledge': 'उत्पादन ज्ञान',
+  'sales_techniques': 'विक्री तंत्रे',
+  'team_building': 'टीम तयार करणे',
+  'success_stories': 'यशाच्या कथा',
+
+  // Profile & Settings
+  'profile': 'प्रोफाइल',
+  'my_profile': 'माझी प्रोफाइल',
+  'settings': 'सेटिंग्ज',
+  'edit_profile': 'प्रोफाइल संपादित करा',
+  'full_name': 'पूर्ण नाव',
+  'email': 'ईमेल',
+  'phone': 'फोन',
+  'address': 'पत्ता',
+  'profile_updated': 'प्रोफाइल यशस्वीरित्या अपडेट केली',
+
+  // Settings
+  'general_settings': 'सामान्य सेटिंग्ज',
+  'appearance': 'स्वरूप',
+  'theme': 'थीम',
+  'language': 'भाषा',
+  'notifications': 'सूचना',
+  'dark_mode': 'डार्क मोड',
+  'light_mode': 'लाइट मोड',
+  'system_default': 'सिस्टम डीफॉल्ट',
+  'notification_settings': 'सूचना सेटिंग्ज',
+  'push_notifications': 'पुश सूचना',
+  'email_notifications': 'ईमेल सूचना',
+
+  // Earnings
+  'earnings': 'कमाई',
+  'my_earnings': 'माझी कमाई',
+  'total': 'एकूण',
+  'weekly': 'साप्ताहिक',
+  'monthly': 'मासिक',
+  'yearly': 'वार्षिक',
+
+  // Validation Messages
+  'field_required': 'हे फील्ड आवश्यक आहे',
+  'invalid_email': 'अवैध ईमेल पत्ता',
+  'phone_too_short': 'फोन नंबर खूप लहान आहे',
+  'phone_too_long': 'फोन नंबर खूप मोठा आहे',
+
+  // Network Messages
+  'network_error': 'नेटवर्क त्रुटी. कृपया तुमचे कनेक्शन तपासा.',
+  'server_error': 'सर्व्हर त्रुटी. कृपया नंतर पुन्हा प्रयत्न करा.',
+  'something_went_wrong': 'काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा.',
+};
