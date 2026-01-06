@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 
 import 'app/core/theme/app_theme.dart';
 import 'app/core/theme/theme_controller.dart';
@@ -10,11 +9,13 @@ import 'app/core/localization/app_translations.dart';
 import 'app/core/localization/language_controller.dart';
 import 'app/core/routes/app_pages.dart';
 import 'app/core/bindings/initial_binding.dart';
+import 'app/core/utils/initialize_app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await GetStorage.init();
+  // Initialize all global controllers and dependencies
+  await initializeApp();
 
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
