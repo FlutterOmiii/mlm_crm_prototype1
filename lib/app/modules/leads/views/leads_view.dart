@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/routes/app_routes.dart';
+import '../../../data/models/lead_model.dart';
 import '../../../widgets/common/custom_card.dart';
 import '../../../widgets/common/empty_state_widget.dart';
 import '../controllers/leads_controller.dart';
