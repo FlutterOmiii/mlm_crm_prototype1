@@ -9,23 +9,37 @@ class SplashController extends GetxController {
   final String _isLoggedInKey = 'isLoggedIn';
 
   @override
-  void onInit() {
-    super.onInit();
+  void onReady() {
+    super.onReady();
     _navigateToNextScreen();
   }
 
   Future<void> _navigateToNextScreen() async {
-    await Future.delayed(AppConstants.splashDuration);
+    // Short delay for smooth animation (1.5 seconds)
+    await Future.delayed(const Duration(milliseconds: 1500));
 
     final hasSelectedLanguage = _storage.read(_languageKey) != null;
     final isLoggedIn = _storage.read(_isLoggedInKey) ?? false;
 
+    // Navigate based on app state with smooth transitions
     if (!hasSelectedLanguage) {
-      Get.offAllNamed(AppRoutes.languageSelection);
+      Get.offAllNamed(
+        AppRoutes.languageSelection,
+        transition: Transition.fadeIn,
+        duration: const Duration(milliseconds: 400),
+      );
     } else if (!isLoggedIn) {
-      Get.offAllNamed(AppRoutes.login);
+      Get.offAllNamed(
+        AppRoutes.login,
+        transition: Transition.fadeIn,
+        duration: const Duration(milliseconds: 400),
+      );
     } else {
-      Get.offAllNamed(AppRoutes.home);
+      Get.offAllNamed(
+        AppRoutes.home,
+        transition: Transition.fadeIn,
+        duration: const Duration(milliseconds: 400),
+      );
     }
   }
 }
